@@ -12,10 +12,18 @@ LOCAL_OVERRIDES_PACKAGES := \
     YouTube \
     YouTubeMusic \
     ScribePrebuilt \
+    FilesPrebuilt
     Videos \
+    HealthIntelligenceStubPrebuilt \
+    AICorePrebuilt \
+    SettingsIntelligenceGooglePrebuilt \
+    DeviceIntelligenceNetworkPrebuilt-v.U.14.playstore \
     MeetPrebuilt_20240128 \
     PlayAutoInstallConfig \
+    GoogleRestorePrebuilt-v445524 \
     SwitchAccessPrebuilt \
+    SoundAmplifierPrebuilt \
+    SoundPickerPrebuilt \
     TurboAdapter \
     talkback \
     YouTube \
