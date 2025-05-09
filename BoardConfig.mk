@@ -22,7 +22,7 @@ DEVICE_PATH := device/motorola/odessa
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/odessa_defconfig
+TARGET_KERNEL_CONFIG := vendor/odessa_defconfig vendor/debugfs.config
 
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
