@@ -12,7 +12,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     YouTube \
     YouTubeMusic \
     ScribePrebuilt \
-    FilesPrebuilt
+    FilesPrebuilt \
     Videos \
     HealthIntelligenceStubPrebuilt \
     AICorePrebuilt \
