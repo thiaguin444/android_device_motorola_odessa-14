@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/odessa/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixelstar/config/common_full_phone.mk)
 
 # Flags
 TARGET_DISABLE_EPPE := true
@@ -32,7 +32,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 -include vendor/lineage-priv/keys/keys.mk
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_odessa
+PRODUCT_NAME := pixelstar_odessa
 PRODUCT_DEVICE := odessa
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) plus
